@@ -38,7 +38,7 @@ export default function Coins() {
         fetchCoins();
 
     }, [currency, page]);
-    if (error) return <ErrorComponent message={"Error while fetching coins!!"} />
+    if (error) return <ErrorComponent message={"Error while fetching coins🥲🥲"} />
     return (
         <Container maxW={"container.xl"}>
             {loading ? <Loader /> : <>

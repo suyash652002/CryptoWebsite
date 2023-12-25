@@ -1,9 +1,10 @@
 import React from 'react'
 import loader from './loader.gif'
+import './Loading.css'
 export default function ErrorComponent({ message }) {
     return (
-        <div>
-            <h1 style={{ textAlign: "center", fontWeight: "500", fontSize: "100px" }}>{message}</h1>
+        <div className='error-div'>
+            <h1>{message}</h1>
             <img style={{
                 display: "block",
                 marginLeft: "auto",

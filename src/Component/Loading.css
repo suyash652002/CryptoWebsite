@@ -1,0 +1,33 @@
+.error-div {
+    font-size: 100px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.loader-div {
+    font-size: 100px;
+    font-weight: 500;
+    text-align: center;
+}
+
+@media (max-width:900px) {
+    .error-div {
+        margin-top: 25px;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .error-div h1 {
+        margin-bottom: 10px;
+    }
+
+    .loader-div {
+        margin-top: 25px;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .loader-div h1 {
+        margin-bottom: 10px;
+    }
+}

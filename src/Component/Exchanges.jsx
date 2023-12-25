@@ -29,7 +29,7 @@ function Exchanges() {
         fetchExchanges();
 
     }, []);
-    if (error) return <ErrorComponent message={"Error while fetching Exchanges"} />
+    if (error) return <ErrorComponent message={"Error while fetching Exchanges🥲"} />
     return (
         <Container maxW={"container.xl"}>
             {loading ? <Loader /> : <>
